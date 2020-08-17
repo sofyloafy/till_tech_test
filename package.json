@@ -1,0 +1,22 @@
+{
+  "name": "till_tech_test",
+  "jest": {
+    "verbose": true
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofyloafy/till_tech_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofyloafy/till_tech_test/issues"
+  },
+  "homepage": "https://github.com/sofyloafy/till_tech_test#readme"
+}
