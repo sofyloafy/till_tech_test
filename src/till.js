@@ -13,8 +13,11 @@ class Till {
   }
 
   header(){
-    this.receipt += (coffeeData[0].shopName + "\n")
-    this.receipt += coffeeData[0].address
+    this.receipt += (coffeeData[0].shopName + "\n\n\n")
+    this.receipt += (coffeeData[0].address + "\n")
+    this.receipt += ("Phone: " + (coffeeData[0].phone))
+
+    console.log(this.receipt)
     return this.receipt
   }
 
