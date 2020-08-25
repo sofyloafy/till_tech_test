@@ -16,7 +16,7 @@ class Till {
     this.receipt += (coffeeData[0].shopName + "\n\n\n")
     this.receipt += (coffeeData[0].address + "\n")
     this.receipt += ("Phone: " + (coffeeData[0].phone))
-
+    this.receipt += ("\n.")
     console.log(this.receipt)
     return this.receipt
   }

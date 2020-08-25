@@ -11,6 +11,6 @@ describe('#Till', () => {
   })
 
   test('it should return first array item', () => {
-    expect(till.header()).toEqual("The Coffee Connection\n\n\n123 Lakeside Way\nPhone: 16503600708")
+    expect(till.header()).toEqual("The Coffee Connection\n\n\n123 Lakeside Way\nPhone: 16503600708\n.")
   })
 })
